@@ -1,0 +1,8 @@
+curl
+snapd
+htop
+openssh-server
+git
+net-tools
+terminator
+
