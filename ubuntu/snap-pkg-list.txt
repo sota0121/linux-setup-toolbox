@@ -3,4 +3,3 @@ code
 vlc
 1password
 notion-snap
-
