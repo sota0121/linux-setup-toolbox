@@ -12,6 +12,6 @@ echo "---------------------------------------------"
 
 while read -r line;
 do
-  echo "--> sudo snap install -y $line"
-  sudo snap install $line -y
+  echo "--> sudo snap install $line"
+  sudo snap install $line
 done
