@@ -4,4 +4,4 @@ vlc
 1password
 notion-snap
 spotify
-zoom-client
+
