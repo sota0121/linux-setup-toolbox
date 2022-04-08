@@ -36,9 +36,19 @@ echo "Install pyenv ..."
 curl https://pyenv.run | bash
 
 echo "Setup pyenv ..."
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.profile
-echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.profile
-echo 'eval "$(pyenv init --path)"' >> ~/.profile
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zprofile
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zprofile
+echo 'eval "$(pyenv init --path)"' >> ~/.zprofile
 
 echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc
+
+# Docker
+curl -fsSL https://get.docker.com -o get-docker.sh
+DRY_RUN=1 sh ./get-docker.sh
+echo "--------------- START TO INSTALL Docker  ---------------"
+sudo sh get-docker.sh
+
+echo "setup docker group / and add user"
+sudo groupadd docker
+sudo usermod -aG docker $USER
