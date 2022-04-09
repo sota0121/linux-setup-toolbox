@@ -4,5 +4,3 @@ vlc
 1password
 notion-snap
 spotify
-
-ffmpeg

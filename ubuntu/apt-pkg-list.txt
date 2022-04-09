@@ -5,3 +5,4 @@ openssh-server
 git
 net-tools
 terminator
+ffmpeg
