@@ -6,3 +6,4 @@ git
 net-tools
 terminator
 ffmpeg
+flameshot
