@@ -1,10 +1,14 @@
+## Apps to install in order
+
+- Google Chrome
+- Homebrew
+- 1password cli (op)
 - github cli (gh)
 - oh-my-zsh
 - oh-my-zsh plugins
   - zsh-autosuggestions
   - zsh-history-substring-search
   - zsh-syntax-highlighting
-- vscode
 - docker
 - minikube
 - go
@@ -16,8 +20,7 @@
 - deno
 - node tool set via nodenv
 - typescript tool set
-- 1password cli (op)
-- Google Chrome
 - Google Cloud SDK
 - AWS CLI
 - terraform
+- vscode
