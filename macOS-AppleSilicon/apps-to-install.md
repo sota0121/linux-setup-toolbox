@@ -20,13 +20,13 @@ Install apps in this order.
 11. Rust tool set via rustup: https://www.rust-lang.org/tools/install
 12. deno: https://deno.land/manual@v1.28.1/getting_started/installation
 13. asdf (instead of anyenv): https://asdf-vm.com/guide/getting-started.html#_3-install-asdf
-  1. download asdf via brew: `brew install asdf`
-  2. install asdf for brew and zsh pattern: `echo -e "\n. $(brew --prefix asdf)/libexec/asdf.sh" >> ${ZDOTDIR:-~}/.zshrc`
+    1. download asdf via brew: `brew install asdf`
+    2. install asdf for brew and zsh pattern: `echo -e "\n. $(brew --prefix asdf)/libexec/asdf.sh" >> ${ZDOTDIR:-~}/.zshrc`
 15. node tool set via asdf
-  1. install dependencies: https://asdf-vm.com/guide/getting-started.html#_4-install-a-plugin
-  2. install asdf-nodejs: https://github.com/asdf-vm/asdf-nodejs/
-  3. install node: https://asdf-vm.com/guide/getting-started.html#_5-install-a-version
-  4. set a specific version: https://asdf-vm.com/guide/getting-started.html#_6-set-a-version
+    1. install dependencies: https://asdf-vm.com/guide/getting-started.html#_4-install-a-plugin
+    2. install asdf-nodejs: https://github.com/asdf-vm/asdf-nodejs/
+    3. install node: https://asdf-vm.com/guide/getting-started.html#_5-install-a-version
+    4. set a specific version: https://asdf-vm.com/guide/getting-started.html#_6-set-a-version
 17. ~nodenv: https://github.com/nodenv/nodenv~
 18. ~node tool set via nodenv~
     1. ~nodenv install X.X.X~
